@@ -1,0 +1,22 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 15px 0 30px;
+  border-bottom: 1px solid #ababab;
+}
+
+.charts {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.chart-wrapper {
+  display: flex;
+}
+
+.advanced-pie-legend .legend-items-container .legend-items,
+.legend-items {
+  overflow: visible !important;
+}
